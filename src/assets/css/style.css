@@ -22,34 +22,10 @@ body {
 	background: #fff;
 	padding: 20px;
 	border-radius: 10px;
-}
-
-form input,
-form label,
-form button {
-	display: block;
-	width: 100%;
-	margin-bottom: 10px;
-}
-
-form input {
-	font-size: 20px;
-	height: 50px;
-	padding: 0 20px;
-}
-
-form input:focus {
-	outline: 1px solid var(--primary-color);
-}
-
-form button {
-	border: none;
-	background: var(--primary-color);
-	color: #fff;
-	font-size: 18px;
-	font-weight: 700px;
-	height: 50px;
-	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .container h1 {
@@ -63,4 +39,21 @@ form button {
 	text-align: center;
 	font-weight: bold;
 	margin-bottom: 40px;
+}
+
+.gerar {
+	background-color: #198754;
+	border-color: #198754;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 1.2em;
+}
+
+.gerar:hover {
+	color: #fff;
+	background-color: #157347;
+	border-color: #146c43;
 }
